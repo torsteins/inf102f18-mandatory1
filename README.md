@@ -110,17 +110,27 @@ You should already be done with this section from mandatory 0, but in case you f
   * Late assignments will be accepted for 24 hours, with a 20 point penalty.
 
 
-## Task A (10 points)
+## Indexed Priority Queues (20 points)
+
+Write a class `IndexMinPQ` which implements the interface `IIndexPQ`.
+
+An *indexed priority queue* is one where your heap consists of *indexed* (named) items; for instance, say we have a priority queue of objects, where what you get when you peek or poll is simply the *id* of the object, and not the actual object itself. In order to know how the elements are sorted, each index (/id) is associated with a comparable *key*. The great benefit of this data structure is that it is possible to change the priority of an object if we know its index.
+
+You may use the partial solution from page 333/334 in the book as a starting point (you might need to rename some funcitons to fit the interface).
+
+Some points to keep in mind:
+
+  * Your constructor should take a single argument, the maximum capacity of your indexed priority queue. You are not required to make the class dynamically resizable.
+  * Your `poll()` and `peek()` functions should return the index of the *minimum* element in the priority queue (as opposed to the provided `UnorderedIndexPQ` class, which returns the index of the maximum).
+  * Your `add()`, `remove()`, `changeKey()` and `poll()` functions should take logarithmic time at worst (as a function of the number of elements in the priority queue)
+  * Your `peek()`, `contains()`, `size()`, and `getKey()` functions should take constant time.
+
+## Task B (10 points)
 
 blahblah
 
 
-## Task B (15 points)
-
-blahblah
-
-
-## Task C (15 points)
+## Task C (10 points)
 
 blahblah
 
