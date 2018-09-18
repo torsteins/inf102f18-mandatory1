@@ -114,7 +114,7 @@ You should already be done with this section from mandatory 0, but in case you f
 
 Write a class `IndexMinPQ` which implements the interface `IIndexPQ`.
 
-An *indexed priority queue* is one where your heap consists of *indexed* (named) items; for instance, say we have a priority queue of objects, where what you get when you peek or poll is simply the *id* of the object, and not the actual object itself. In order to know how the elements are sorted, each index (/id) is associated with a comparable *key*. The great benefit of this data structure is that it is possible to change the priority of an object if we know its index.
+An *indexed priority queue* is one where your heap consists of *indexed* (named) items; for instance, say we have a priority queue of objects, where what you get when you peek or poll is simply the *id* of the object, and not the actual object itself. In order to know how the indices are sorted, each index (/id) is associated with a comparable *key*. The great benefit of this data structure is that it is possible to change the priority of an object if we know its index.
 
 You may use the partial solution from page 333/334 in the book as a starting point (you might need to rename some funcitons to fit the interface).
 
