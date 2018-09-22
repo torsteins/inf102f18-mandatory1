@@ -135,11 +135,17 @@ You have heard that recursion is bad for memory usage and might cause stack over
 
 ## [4]&nbsp;&nbsp;Balanced Binary Search Trees (15 points)
 
-All answers to this section should be answered in the pdf. Some questions may require drawings of trees; we will not judge you by their artistic quality, as long as they are easy to understand. In particular, the root should be on the top, and all nodes at the same distance from the root should be verically aligned (see example). There is a nice tool for drawing these bad boys at [draw.io](https://www.draw.io) (however, we also accept pictures of your notebook).
+All answers to this section should be answered in the pdf. Some questions may require drawings of trees; we will not judge you by their artistic quality, as long as they are easy to understand. In particular, the root should be on the top, and all nodes at the same distance from the root should be verically aligned (see examples below). There is a nice tool for drawing these bad boys at [draw.io](https://www.draw.io) (however, we also accept pictures of your notebook).
 
 Note: Drawing the "null" edges is important. You will lose points if you don't draw them.
 
- a) A left-leaning red-black BST is a particular implementation of 2-3 trees, and there is a bijections between illustrations of red-black BST's and a 2-3 trees. Fill in the table below with the missing pictures.
+ a) Draw the 2-3 tree that results when you insert the keys Z M Q N Y I D S B F T in that order into an initially empty tree
+ 
+ b) Find an insertion order for the keys T F B S D I Y N that leads to a 2-3 tree of height 1.
+ 
+ c) Which of the following are red-black BSTs? ![picture of four bst's](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-c.png)
+
+ d) A left-leaning red-black BST is a particular implementation of 2-3 trees, and there is a bijections between illustrations of red-black BST's and a 2-3 trees. Fill in the table below with the missing pictures.
  
  Task | 2-3 tree | Red-black BST
  ---- | -------- | -------------
