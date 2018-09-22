@@ -45,7 +45,7 @@ This includes (but is not limited to)
   
 In order to use the funcionalities offered by these data structures and algorithms,
 you will need to implement them yourself. This includes any functions used for testing.
-You may use your own implementations from manadatory 0.
+You may for instance use your own implementations from manadatory 0 and weekly exercises.
 
 
 
