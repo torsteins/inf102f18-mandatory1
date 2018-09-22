@@ -137,6 +137,8 @@ You have heard that recursion is bad for memory usage and might cause stack over
 
 All answers to this section should be answered in the pdf. Some questions may require drawings of trees; we will not judge you by their artistic quality, as long as they are easy to understand. In particular, the root should be on the top, and all nodes at the same distance from the root should be verically aligned (see example). There is a nice tool for drawing these bad boys at [draw.io](https://www.draw.io).
 
+Note: Drawing the "null" edges is important. You will lose points if you don't draw them.
+
  a) A left-leaning red-black BST is a particular implementation of 2-3 trees, and there is a bijections between illustrations of red-black BST's and a 2-3 trees. Fill in the table below with the missing pictures.
  
  Task | 2-3 tree | Red-black BST
