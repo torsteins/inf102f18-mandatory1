@@ -141,9 +141,9 @@ All answers to this section should be answered in the pdf. Some questions may re
  
  Task | 2-3 tree | Red-black BST
  ---- | -------- | -------------
-   i  | ![2-3 tree (A)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-i-23tree.png) | ![red-black tree (A)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-i-redblack.png)
-  ii  |   |  
-  iii |   |
+   i  | ![2-3 tree (i)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-i-23tree.png) | ![red-black tree (i)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-i-redblack.png)
+  ii  | ![2-3 tree (ii)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-ii-23tree.png) |  
+  iii |   | ![red-black tree (iii)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-iii-redblack.png)
   iv  |   |
   v   |   |
 
