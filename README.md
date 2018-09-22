@@ -111,7 +111,9 @@ You should already be done with this section from mandatory 0, but in case you f
   * Late assignments will be accepted for 24 hours, with a 20 point penalty.
 
 
-## [1]&nbsp;&nbsp;Indexed Priority Queues (20 points)
+## [1]&nbsp;&nbsp;Iterative Quick-sort (15 points)
+
+## [2]&nbsp;&nbsp;Indexed Priority Queues (20 points)
 
 Write a class `IndexMinPQ` which implements the interface `IIndexPQ`.
 
@@ -127,11 +129,11 @@ Some points to keep in mind:
   * Your `peek()`, `contains()`, `size()`, and `getKey()` functions should take constant time.
 
 
-## [3]&nbsp;&nbsp;Iterative Binary Search Tree(10 points)
+## [3]&nbsp;&nbsp;Iterative Binary Search Tree (20 points)
 
 You have heard that recursion is bad for memory usage and might cause stack overflows, so you want to make
 
-## [2]&nbsp;&nbsp;Balanced Binary Search Trees (10 points)
+## [4]&nbsp;&nbsp;Balanced Binary Search Trees (15 points)
 
 All answers to this section should be answered in the pdf. Some questions may require drawings of trees; we will not judge you by their artistic quality, as long as they are easy to understand. In particular, the root should be on the top, and all nodes at the same distance from the root should be verically aligned (see example). There is a nice tool for drawing these bad boys at [draw.io](https://www.draw.io).
 
@@ -146,15 +148,7 @@ All answers to this section should be answered in the pdf. Some questions may re
   v   |   |
 
 
-## [3]&nbsp;&nbsp; (10 points)
 
-blahblah
-
-
-## [4]&nbsp;&nbsp;Task D (30 points)
-
-blahblah
- 
  
  ##### Good luck!
  
