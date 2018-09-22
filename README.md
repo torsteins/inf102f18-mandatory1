@@ -45,7 +45,7 @@ This includes (but is not limited to)
   
 In order to use the funcionalities offered by these data structures and algorithms,
 you will need to implement them yourself. This includes any functions used for testing.
-You may use your own implementations from manadatory 0.
+You may for instance use your own implementations from manadatory 0 and weekly exercises.
 
 
 
@@ -137,14 +137,16 @@ You have heard that recursion is bad for memory usage and might cause stack over
 
 All answers to this section should be answered in the pdf. Some questions may require drawings of trees; we will not judge you by their artistic quality, as long as they are easy to understand. In particular, the root should be on the top, and all nodes at the same distance from the root should be verically aligned (see example). There is a nice tool for drawing these bad boys at [draw.io](https://www.draw.io).
 
+Note: Drawing the "null" edges is important. You will lose points if you don't draw them.
+
  a) A left-leaning red-black BST is a particular implementation of 2-3 trees, and there is a bijections between illustrations of red-black BST's and a 2-3 trees. Fill in the table below with the missing pictures.
  
  Task | 2-3 tree | Red-black BST
  ---- | -------- | -------------
-   i  | ![2-3 tree (A)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-i-23tree.png) | ![red-black tree (A)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-i-redblack.png)
-  ii  |   |  
-  iii |   |
-  iv  |   |
+   i  | ![2-3 tree (i)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-i-23tree.png) | ![red-black tree (i)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-i-redblack.png)
+  ii  | ![2-3 tree (ii)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-ii-23tree.png) |  
+  iii |   | ![red-black tree (iii)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-iii-redblack.png)
+  iv  |   | ![red-black tree (iv)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-iv-redblack.png)
   v   |   |
 
 
