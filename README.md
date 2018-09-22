@@ -5,7 +5,7 @@ Deadline: Wednesday October 17, 2018 at 23:59
 
 ## Organizational notes
 
-This assignment is an individual task, however you are allowed
+This assignment is an individual task, however you are encouraged to
 to collaborate and discuss solutions *as long as you do not share code*
 (see our policy on
 [Collaboration and Cheating](https://mitt.uib.no/courses/12780/pages/collaboration-and-cheating)).
@@ -45,10 +45,11 @@ This includes (but is not limited to)
   
 In order to use the funcionalities offered by these data structures and algorithms,
 you will need to implement them yourself. This includes any functions used for testing.
+You may use your own implementations from manadatory 0.
 
 
 
-## Organizational instructions (30 points)
+## [0]&nbsp;&nbsp;Organizational instructions (30 points)
 
 Getting the organizational instructions right can be astonishingly difficult.
 Therefore, we award a whopping 30 points to everyone who manage to follow all of them!
@@ -110,7 +111,7 @@ You should already be done with this section from mandatory 0, but in case you f
   * Late assignments will be accepted for 24 hours, with a 20 point penalty.
 
 
-## Indexed Priority Queues (20 points)
+## [1]&nbsp;&nbsp;Indexed Priority Queues (20 points)
 
 Write a class `IndexMinPQ` which implements the interface `IIndexPQ`.
 
@@ -125,17 +126,28 @@ Some points to keep in mind:
   * Your `add()`, `remove()`, `changeKey()` and `poll()` functions should take logarithmic time at worst (as a function of the number of elements in the priority queue)
   * Your `peek()`, `contains()`, `size()`, and `getKey()` functions should take constant time.
 
-## Task B (10 points)
+
+## [3]&nbsp;&nbsp;Iterative Binary Search Tree(10 points)
+
+You have heard that recursion is bad for memory usage and might cause stack overflows, so you want to make
+
+## [2]&nbsp;&nbsp;Balanced Binary Search Trees (10 points)
+
+All answers to this section should be answered in the pdf. Some questions may require drawings of trees; we will not judge you by their artistic quality, as long as it is easy to understand. In particular, the root should be on the top, and all nodes at the same distance from the root should be verically aligned.
+
+ a) A left-leaning red-black BST is a particular implementation of 2-3 trees, and there is a bijections between illustrations of red-black BST's and a 2-3 trees. Fill in the table below with the missing pictures.
+ 
+ Task | 2-3 tree | Red-black BST
+ ---- | -------- | -------------
+   A  | ![2-3 tree (A)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/A23tree.png) | ![red-black tree (A)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/Aredblack.png)
+
+
+## [3]&nbsp;&nbsp; (10 points)
 
 blahblah
 
 
-## Task C (10 points)
-
-blahblah
-
-
-## Task D (30 points)
+## [4]&nbsp;&nbsp;Task D (30 points)
 
 blahblah
  
