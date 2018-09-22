@@ -146,7 +146,7 @@ Note: Drawing the "null" edges is important. You will lose points if you don't d
    i  | ![2-3 tree (i)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-i-23tree.png) | ![red-black tree (i)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-i-redblack.png)
   ii  | ![2-3 tree (ii)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-ii-23tree.png) |  
   iii |   | ![red-black tree (iii)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-iii-redblack.png)
-  iv  |   |
+  iv  |   | ![red-black tree (iv)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-iv-redblack.png)
   v   |   |
 
 
