@@ -135,7 +135,7 @@ You have heard that recursion is bad for memory usage and might cause stack over
 
 ## [4]&nbsp;&nbsp;Balanced Binary Search Trees (15 points)
 
-All answers to this section should be answered in the pdf. Some questions may require drawings of trees; we will not judge you by their artistic quality, as long as they are easy to understand. In particular, the root should be on the top, and all nodes at the same distance from the root should be verically aligned (see example). There is a nice tool for drawing these bad boys at [draw.io](https://www.draw.io).
+All answers to this section should be answered in the pdf. Some questions may require drawings of trees; we will not judge you by their artistic quality, as long as they are easy to understand. In particular, the root should be on the top, and all nodes at the same distance from the root should be verically aligned (see example). There is a nice tool for drawing these bad boys at [draw.io](https://www.draw.io) (however, we also accept pictures of your notebook).
 
 Note: Drawing the "null" edges is important. You will lose points if you don't draw them.
 
@@ -147,7 +147,7 @@ Note: Drawing the "null" edges is important. You will lose points if you don't d
   ii  | ![2-3 tree (ii)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-ii-23tree.png) |  
   iii |   | ![red-black tree (iii)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-iii-redblack.png)
   iv  |   | ![red-black tree (iv)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-iv-redblack.png)
-  v   |   |
+  v   |  ![2-3 tree (v)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-v-23tree.png) |
 
 
 
