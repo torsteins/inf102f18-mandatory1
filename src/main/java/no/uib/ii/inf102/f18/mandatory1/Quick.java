@@ -11,7 +11,6 @@ import java.util.SplittableRandom; // A (much) faster random generator than java
  */
 @SuppressWarnings("unchecked")
 public class Quick {
-    private static final int CUTOFF = 0;
 
     /**
      * Sort the array using quicksort.
@@ -35,42 +34,16 @@ public class Quick {
     }
 
     private static void quickSort(Comparable[] arr, int lb, int ub) {
-        /*
-        If size of array is small -- use insertion sort.
-        If cutoff is 0, then this basically just returns
-        without doing anything (it is already sorted)
-        */
-        if (lb + 1 + CUTOFF >= ub) {
-            Insertion.sort(arr, lb, ub);
-            return;
-        }
+        if (lb + 1 >= ub) return;
+        int pivotPosition = partition(arr, lb, ub);
+        quickSort(arr, lb, pivotPosition);
+        quickSort(arr, pivotPosition + 1, ub);
+    }
 
-        /*
-        Tiny optimization: Find the median of three
-        You may skip this part entirely - it makes it
-        more likely to chose a pivot closer to the
-        median. We basically swap the median of the
-        three first elements into the first position.
-        */
-        if (ub - lb > 3) {
-            int cmp01 = arr[lb].compareTo(arr[lb + 1]);
-            int cmp02 = arr[lb].compareTo(arr[lb + 2]);
-            if (cmp01 < 0 && cmp02 < 0) {
-                if (arr[lb + 1].compareTo(arr[lb + 2]) < 0)
-                    swap(lb, lb + 1, arr);
-                else
-                    swap(lb, lb + 2, arr);
-            }
-            else if (cmp01 > 0 && cmp02 > 0) {
-                if (arr[lb + 1].compareTo(arr[lb + 2]) > 0)
-                    swap(lb, lb + 1, arr);
-                else
-                    swap(lb, lb + 2, arr);
-            }
-        }
-
+    private static int partition(Comparable[] arr, int lb, int ub) {
         Comparable pivot = arr[lb];
-        int i = lb, j = ub;
+        int i = lb;
+        int j = ub;
         /*
         Mentally, divide array into three (four) parts based on pointers lb, i, j and ub
         At the end of every iteration of the while-loop below, maintain these invariants:
@@ -83,7 +56,6 @@ public class Quick {
 
         Note: arr[x:y] denotes the sub-array starting at x (inclusive) ending at y (exclusive)
         */
-
         while (true) {
             /*
             First while loop: Find next index i where arr[i] >= pivot (incrementing i)
@@ -107,10 +79,7 @@ public class Quick {
         that swapping the pivot into position j will yield a complete partition of [lb:ub].
         */
         swap(lb, j, arr);
-
-        // Recursively sort the two partitions.
-        quickSort(arr, lb, j);
-        quickSort(arr, j+1, ub);
+        return j;
     }
 
     /**

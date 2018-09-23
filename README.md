@@ -111,11 +111,63 @@ You should already be done with this section from mandatory 0, but in case you f
   * Late assignments will be accepted for 24 hours, with a 20 point penalty.
 
 
-## [1]&nbsp;&nbsp;Iterative Quick-sort (15 points)
+## [1]&nbsp;&nbsp;Quicksort (15 points)
+In this task, we will examine quicksort. Subtasks a, b and c should be answered
+in the pdf, whereas subtask d consists of coding. In the maven project we have
+provided a recursive implementation of quicksort
+(in the class [Quick](https://github.com/torsteins/inf102f18-mandatory1/blob/master/src/main/java/no/uib/ii/inf102/f18/mandatory1/Quick.java)),
+which you may use as a
+reference. You do not need to touch this code, but you may if you want to.
+
+ **a)** The provided quicksort implementation
+is based on an in-place partitioning scheme. Show a trace of
+how the partition function partitions the array `[11, 12, 4, 13, 2, 5, 11, 5, 16, 14]` (lb=0, ub=10). Give your trace in the style of the
+trace on page 291 in the book (you do not need to draw the arrows, and you
+may use boldface instead of color-coding if you prefer).
+
+ **b)** Show a trace of how quicksort sorts the array `[11, 12, 4, 13, 2, 5, 11, 5, 16, 14]`, assuming
+that the inital shuffle is omitted.
+Give your trace in the style of the trace on page 289 in the book (you may use
+boldface and italics instead of color-coding if you prefer).
+
+**c)** Much of the quicksort magic happens on lines `64` and `65` in the
+[Quick](https://github.com/torsteins/inf102f18-mandatory1/blob/master/src/main/java/no/uib/ii/inf102/f18/mandatory1/Quick.java) class.
+On line `64` the variable `i` is incremented until it is pointing at an
+element which is greater than *or equal to* the pivot, and on line
+`65`, `j` is decremented until it is pointing at an element which
+is less than *or equal to* the pivot. This might seem
+ counter-intuitive; but what happens if you
+ instead require
+`i` to point at an element which is *strictly greater* than the pivot,
+and `j` to point at an element which is *strictly less* than the pivot?
+Explain which bad thing happens and why. Use no more than one or two short paragraphs.
+
+
+(Hint: examine what happens with the JUnit tests if you change the code
+to reflect the strategy. Uncomment
+the second condition on line `65` as well, otherwise
+it will crash)
+
+
+ **d)** The provided implementation of quicksort is recursive, but you've
+ heard a rumour that iterative implementations are generally quicker. Create a class
+  `IterativeQuick` with a public method `sort(Comparable[] arr)`, which
+  implements an 
+ interative version of quicksort. Test it by modifying line `30` of [TrollBook.java](https://github.com/torsteins/inf102f18-mandatory1/blob/master/src/main/java/no/uib/ii/inf102/f18/mandatory1/TrollBook.java)
+  to use your sort and solve the Kattis problem [uib.trollbook](https://uib.kattis.com/problems/uib.trollbook).
+ 
+ (Hint: Use a stack on which you store the range you want to sort.
+ Initially, push the range `[0, arr.length)` onto
+ the stack; then, as long as the stack isn't empty, pop a range from
+ the stack and preform the quicksort routine. Instead of doing recursive
+ calls, push new ranges onto the stack.)
 
 ## [2]&nbsp;&nbsp;Indexed Priority Queues (20 points)
 
-Write a class `IndexMinPQ` which implements the interface `IIndexPQ`.
+In this task, we will examine heaps and priority queues. 
+
+
+**b)** Write a class `IndexMinPQ` which implements the interface `IIndexPQ`.
 
 An *indexed priority queue* is one where your heap consists of *indexed* (named) items; for instance, say we have a priority queue of objects, where what you get when you peek or poll is simply the *id* of the object, and not the actual object itself. In order to know how the indices are sorted, each index (/id) is associated with a comparable *key*. The great benefit of this data structure is that it is possible to change the priority of an object if we know its index.
 

@@ -2,9 +2,6 @@ package no.uib.ii.inf102.f18.mandatory1;
 
 import java.util.stream.Stream;
 
-/**
- * @author Torstein Strømme
- */
 public class TrollBook {
 
     static class Page implements Comparable<Page> {
