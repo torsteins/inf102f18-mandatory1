@@ -11,7 +11,7 @@ import java.util.NoSuchElementException;
  *
  * @param <Key>
  */
-public class UnsortedIndexPQ<Key extends Comparable<Key>> implements IIndexPQ<Key> {
+public class UnsortedIndexMaxPQ<Key extends Comparable<Key>> implements IIndexPQ<Key> {
 	private int size = 0;
     @SuppressWarnings("unchecked")
     private Key[] keys = (Key[]) new Comparable[100];

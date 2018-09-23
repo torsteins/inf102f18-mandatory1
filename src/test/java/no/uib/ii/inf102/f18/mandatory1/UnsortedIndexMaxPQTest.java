@@ -10,13 +10,13 @@ import org.junit.jupiter.api.Test;
 /**
  * Unit test
  */
-public class UnsortedIndexPQTest {
+class UnsortedIndexMaxPQTest {
 	
 	private IIndexPQ<String> pq;
 
 	@BeforeEach
 	void setup() {
-		this.pq = new UnsortedIndexPQ<String>();
+		this.pq = new UnsortedIndexMaxPQ<String>();
 	}
 
 	@Test
