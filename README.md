@@ -213,7 +213,7 @@ Note: Drawing the "null" edges is important. You will lose points if you don't d
  
  c) Which of the following are red-black BSTs? ![picture of four bst's](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-c.png)
 
- d) A left-leaning red-black BST is a particular implementation of 2-3 trees, and there is a bijections between illustrations of red-black BST's and a 2-3 trees. Fill in the table below with the missing pictures.
+ d) A left-leaning red-black BST is a particular implementation of 2-3 trees, and there is a bijection between illustrations of red-black BST's and a 2-3 trees. Fill in the table below with the missing pictures.
  
  Task | 2-3 tree | Red-black BST
  ---- | -------- | -------------
