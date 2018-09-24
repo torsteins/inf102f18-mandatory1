@@ -219,7 +219,7 @@ Note: Drawing the "null" edges is important. You will lose points if you don't d
 
  **a)** Draw the 2-3 tree that results when you insert the keys `Z M Q N Y I D S B F T` in that order into an initially empty tree
  
- **b)** Find an insertion order for the keys T F B S D I Y N that leads to a 2-3 tree of height 1.
+ **b)** Find an insertion order for the keys `T F B S D I Y N` that leads to a 2-3 tree of height 1.
  
  **c)** Which of the following are red-black BSTs? ![picture of four bst's](pics/task4-c.png)
 
