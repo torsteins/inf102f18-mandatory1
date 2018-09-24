@@ -168,7 +168,7 @@ In this task, we will examine heap-based priority queues. Task a and b should
 be answered in the pdf, task c consists of coding.
 
 **a)** The array `[ null, T, P, R, N, H, O, A, E, I, G ]` represents a
-1-indexed max heap in a priority queue of characters. What does
+1-indexed max heap in a priority queue of type `Character`. What does
 the array look like after `S` is added to the priority queue?
 
 
