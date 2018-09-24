@@ -209,7 +209,6 @@ Problem a require a drawing of a tree; we will not judge you by its artistic qua
 
 **c)** Create a class `MyClass` which solves the Kattis problem [uib.myclass](https://uib.kattis.com/problems/uib.myclass). Your code should both be included in the maven project you hand in, as well as be submitted to Kattis.
 
-You have heard that recursion is bad for memory usage and might cause stack overflows, so you want to make
 
 ## [4]&nbsp;&nbsp;Balanced Binary Search Trees (15 points)
 
