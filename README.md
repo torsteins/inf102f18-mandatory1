@@ -197,7 +197,17 @@ You must fulfill the following requirements:
   * Your `peek()`, `contains()`, `size()`, and `getKey()` functions should take constant time.
 
 
-## [3]&nbsp;&nbsp;Iterative Binary Search Tree (20 points)
+## [3]&nbsp;&nbsp;(Iterative) Binary Search Tree (20 points)
+
+In this problem, we examine binary search trees (BST). Subtask a should be answered in the pdf, whereas subtasks b and c consists of code. For your convenience, we have included the binary search tree from lecture in the repository in the class [BinarySearchTree](src/main/java/no/uib/ii/inf102/f18/mandatory1/BinarySearchTree.java). You will change this code as part of subtask b.
+
+Problem a require a drawing of a tree; we will not judge you by its artistic quality, as long as it is easy to understand. In particular, the root should be on the top, and all nodes at the same distance from the root should be vertically aligned (see examples later in the assignment). There is a nice tool for drawing trees at [draw.io](https://www.draw.io) (however, we also accept pictures of your notebook). Note: Drawing the "null" edges is important. You will lose points if you don't draw them.
+
+**a)** Draw the binary search tree that results you insert the keys `Z M Q N Y I D S B F T` in that order into an initially empty BST.
+
+**b)** Implement an iterative version of the `get(Key key)` function.
+
+**c)** Create a class `MyClass` which solves the Kattis problem [uib.myclass](https://uib.kattis.com/problems/uib.myclass). Your code should both be included in the maven project you hand in, as well as be submitted to Kattis.
 
 You have heard that recursion is bad for memory usage and might cause stack overflows, so you want to make
 
@@ -207,7 +217,7 @@ All answers to this section should be answered in the pdf. Some questions may re
 
 Note: Drawing the "null" edges is important. You will lose points if you don't draw them.
 
- **a)** Draw the 2-3 tree that results when you insert the keys Z M Q N Y I D S B F T in that order into an initially empty tree
+ **a)** Draw the 2-3 tree that results when you insert the keys `Z M Q N Y I D S B F T` in that order into an initially empty tree
  
  **b)** Find an insertion order for the keys T F B S D I Y N that leads to a 2-3 tree of height 1.
  
@@ -223,7 +233,7 @@ Note: Drawing the "null" edges is important. You will lose points if you don't d
   iv  |   | ![red-black tree (iv)](pics/task4-iv-redblack.png)
   v   |  ![2-3 tree (v)](pics/task4-v-23tree.png) |
 
- **e)** In the left-leaning red-black implementation of 2-3 trees, we use three operations: "rotate left," (L) "rotate right" (R) and "flip colors" (F). For the red-black tree below, give the order that these operations are applied when the character `n` is inserted. Give your trace as a single string of the characters L, R and F.
+ **e)** In the left-leaning red-black implementation of 2-3 trees, we use three operations: "rotate left," (L) "rotate right" (R) and "flip colors" (F). For the red-black tree below, give the order that these operations are applied when the character `n` is inserted (only the search path is shown). Give your trace as a single string with the characters L, R and F.
  
  <a href="pics/task4-e.png"><img src="pics/task4-e.png" width="400"/></a>
  
