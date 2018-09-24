@@ -207,13 +207,13 @@ All answers to this section should be answered in the pdf. Some questions may re
 
 Note: Drawing the "null" edges is important. You will lose points if you don't draw them.
 
- a) Draw the 2-3 tree that results when you insert the keys Z M Q N Y I D S B F T in that order into an initially empty tree
+ **a)** Draw the 2-3 tree that results when you insert the keys Z M Q N Y I D S B F T in that order into an initially empty tree
  
- b) Find an insertion order for the keys T F B S D I Y N that leads to a 2-3 tree of height 1.
+ **b)** Find an insertion order for the keys T F B S D I Y N that leads to a 2-3 tree of height 1.
  
- c) Which of the following are red-black BSTs? ![picture of four bst's](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-c.png)
+ **c)** Which of the following are red-black BSTs? ![picture of four bst's](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-c.png)
 
- d) A left-leaning red-black BST is a particular implementation of 2-3 trees, and there is a bijection between illustrations of red-black BST's and a 2-3 trees. Fill in the table below with the missing pictures.
+ **d)** A left-leaning red-black BST is a particular implementation of 2-3 trees, and there is a bijection between illustrations of red-black BST's and a 2-3 trees. Fill in the table below with the missing pictures.
  
  Task | 2-3 tree | Red-black BST
  ---- | -------- | -------------
@@ -223,9 +223,11 @@ Note: Drawing the "null" edges is important. You will lose points if you don't d
   iv  |   | ![red-black tree (iv)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-iv-redblack.png)
   v   |  ![2-3 tree (v)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-v-23tree.png) |
 
- e) In the left-leaning red-black implementation of 2-3 trees, we use three operations: "rotate left," (L) "rotate right" (R) and "flip colors" (F). For the red-black tree below, give the order that these operations are applied when the character `n` is inserted. Give your trace as a single string of the characters L, R and F.
+ **e)** In the left-leaning red-black implementation of 2-3 trees, we use three operations: "rotate left," (L) "rotate right" (R) and "flip colors" (F). For the red-black tree below, give the order that these operations are applied when the character `n` is inserted. Give your trace as a single string of the characters L, R and F.
  
  <a href="https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-e.png"><img src="https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-e.png" width="400"/></a>
+ 
+ **f)** What is the maximum depth of a left-leaning red-black tree with `n` nodes? Explain/prove your answer.
 
  
  ##### Good luck!
