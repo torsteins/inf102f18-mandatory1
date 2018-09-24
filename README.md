@@ -115,7 +115,7 @@ You should already be done with this section from mandatory 0, but in case you f
 In this task, we will examine quicksort. Subtasks a, b and c should be answered
 in the pdf, whereas subtask d consists of coding. In the maven project we have
 provided a recursive implementation of quicksort
-(in the class [Quick](https://github.com/torsteins/inf102f18-mandatory1/blob/master/src/main/java/no/uib/ii/inf102/f18/mandatory1/Quick.java)),
+(in the class [Quick](src/main/java/no/uib/ii/inf102/f18/mandatory1/Quick.java)),
 which you may use as a
 reference. You do not need to touch this code, but you may if you want to.
 
@@ -131,7 +131,7 @@ Give your trace in the style of the trace on page 289 in the book (you may use
 boldface and italics instead of color-coding if you prefer).
 
 **c)** Much of the quicksort magic happens on lines `64` and `65` in the
-[Quick](https://github.com/torsteins/inf102f18-mandatory1/blob/master/src/main/java/no/uib/ii/inf102/f18/mandatory1/Quick.java) class.
+[Quick](src/main/java/no/uib/ii/inf102/f18/mandatory1/Quick.java) class.
 On line `64` the variable `i` is incremented until it is pointing at an
 element which is greater than *or equal to* the pivot, and on line
 `65`, `j` is decremented until it is pointing at an element which
@@ -153,7 +153,7 @@ it will crash)
  heard a rumour that iterative implementations are generally quicker. Create a class
   `IterativeQuick` with a public method `sort(Comparable[] arr)`, which
   implements an 
- interative version of quicksort. Test it by modifying line `30` of [TrollBook.java](https://github.com/torsteins/inf102f18-mandatory1/blob/master/src/main/java/no/uib/ii/inf102/f18/mandatory1/TrollBook.java)
+ interative version of quicksort. Test it by modifying line `30` of [TrollBook.java](src/main/java/no/uib/ii/inf102/f18/mandatory1/TrollBook.java)
   to use your sort and solve the Kattis problem [uib.trollbook](https://uib.kattis.com/problems/uib.trollbook).
  
  (Hint: Use a stack on which you store the range you want to sort.
@@ -183,7 +183,7 @@ the maximum/minimum value inserted so far, then return that value for
 
 An *indexed priority queue* is one where your heap consists of *indexed* (named) items; for instance, say we have a priority queue of objects, where what you get when you peek or poll is simply the *id* of the object, and not the actual object itself. In order to know how the indices are sorted, each index (/id) is associated with a comparable *key*. The great benefit of this data structure is that it is possible to change the priority of an object if we know its index.
 
-We have provided a (silly) class [UnorderedIndexMaxPQ](https://github.com/torsteins/inf102f18-mandatory1/blob/master/src/main/java/no/uib/ii/inf102/f18/mandatory1/UnorderedIndexMaxPQ.java)
+We have provided a (silly) class [UnorderedIndexMaxPQ](src/main/java/no/uib/ii/inf102/f18/mandatory1/UnorderedIndexMaxPQ.java)
 which implements the interface. This is only for your reference; you do not
 need to touch it unless your really want to.
 
@@ -192,7 +192,7 @@ need to touch it unless your really want to.
 You must fulfill the following requirements:
 
   * Your constructor takes a single argument, the highest allowed index in your indexed priority queue. You are *not* required to make the class dynamically resizable.
-  * Your `poll()` and `peek()` functions should return the index of the *minimum* element in the priority queue (as opposed to the provided [UnorderedIndexMaxPQ](https://github.com/torsteins/inf102f18-mandatory1/blob/master/src/main/java/no/uib/ii/inf102/f18/mandatory1/UnorderedIndexMaxPQ.java) class, which returns the index of the maximum).
+  * Your `poll()` and `peek()` functions should return the index of the *minimum* element in the priority queue (as opposed to the provided [UnorderedIndexMaxPQ](src/main/java/no/uib/ii/inf102/f18/mandatory1/UnorderedIndexMaxPQ.java) class, which returns the index of the maximum).
   * Your `add()`, `remove()`, `changeKey()` and `poll()` functions should take logarithmic time at worst (as a function of the number of elements currently in the priority queue)
   * Your `peek()`, `contains()`, `size()`, and `getKey()` functions should take constant time.
 
@@ -211,7 +211,7 @@ Note: Drawing the "null" edges is important. You will lose points if you don't d
  
  **b)** Find an insertion order for the keys T F B S D I Y N that leads to a 2-3 tree of height 1.
  
- **c)** Which of the following are red-black BSTs? ![picture of four bst's](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-c.png)
+ **c)** Which of the following are red-black BSTs? ![picture of four bst's](pics/task4-c.png)
 
  **d)** A left-leaning red-black BST is a particular implementation of 2-3 trees, and there is a bijection between illustrations of red-black BST's and a 2-3 trees. Fill in the table below with the missing pictures.
  
