@@ -111,7 +111,7 @@ You should already be done with this section from mandatory 0, but in case you f
   * Late assignments will be accepted for 24 hours, with a 20 point penalty.
 
 
-## [1]&nbsp;&nbsp;Quicksort (15 points)
+## [1]&nbsp;&nbsp;(Iterative) Quicksort (15 points)
 In this task, we will examine quicksort. Subtasks a, b and c should be answered
 in the pdf, whereas subtask d consists of coding. In the maven project we have
 provided a recursive implementation of quicksort
@@ -162,27 +162,36 @@ it will crash)
  the stack and preform the quicksort routine. Instead of doing recursive
  calls, push new ranges onto the stack.)
 
-## [2]&nbsp;&nbsp;Indexed Priority Queues (20 points)
+## [2]&nbsp;&nbsp;(Indexed) Priority Queues (20 points)
 
-In this task, we will examine heaps and priority queues. Task a and b should
+In this task, we will examine heap-based priority queues. Task a and b should
 be answered in the pdf, task c consists of coding.
 
-**
+**a)** The array `[ null, T, P, R, N, H, O, A, E, I, G ]` represents a
+1-indexed max heap in a priority queue of characters. What does
+the array look like after `S` is added to the priority queue?
+
+
+**b)** Criticize the following idea: To implement `peek()` (find the
+ maximum/minumum) in
+constant time, why not use a stack or a queue, but keep track of
+the maximum/minimum value inserted so far, then return that value for
+`peek()`? Limit your answer to a short paragraph.
 
 
 **c)** Write a class `IndexMinPQ` which implements the interface `IIndexPQ`.
 
 An *indexed priority queue* is one where your heap consists of *indexed* (named) items; for instance, say we have a priority queue of objects, where what you get when you peek or poll is simply the *id* of the object, and not the actual object itself. In order to know how the indices are sorted, each index (/id) is associated with a comparable *key*. The great benefit of this data structure is that it is possible to change the priority of an object if we know its index.
 
-We have provide a (silly) class [UnorderedIndexMaxPQ](https://github.com/torsteins/inf102f18-mandatory1/blob/master/src/main/java/no/uib/ii/inf102/f18/mandatory1/UnorderedIndexMaxPQ.java)
+We have provided a (silly) class [UnorderedIndexMaxPQ](https://github.com/torsteins/inf102f18-mandatory1/blob/master/src/main/java/no/uib/ii/inf102/f18/mandatory1/UnorderedIndexMaxPQ.java)
 which implements the interface. This is only for your reference; you do not
 need to touch it unless your really want to.
 
-You may use the partial solution from page 333/334 in the book as a starting point (you might need to rename some funcitons to fit the interface).
+(Hint: Use the partial solution from page 333/334 in the book as a starting point. You might need to rename some funcitons to fit the interface.)
 
 You must fulfill the following requirements:
 
-  * Your constructor takes a single argument, the maximum allowed index of your indexed priority queue. You are *not* required to make the class dynamically resizable.
+  * Your constructor takes a single argument, the highest allowed index in your indexed priority queue. You are *not* required to make the class dynamically resizable.
   * Your `poll()` and `peek()` functions should return the index of the *minimum* element in the priority queue (as opposed to the provided [UnorderedIndexMaxPQ](https://github.com/torsteins/inf102f18-mandatory1/blob/master/src/main/java/no/uib/ii/inf102/f18/mandatory1/UnorderedIndexMaxPQ.java) class, which returns the index of the maximum).
   * Your `add()`, `remove()`, `changeKey()` and `poll()` functions should take logarithmic time at worst (as a function of the number of elements currently in the priority queue)
   * Your `peek()`, `contains()`, `size()`, and `getKey()` functions should take constant time.
@@ -194,7 +203,7 @@ You have heard that recursion is bad for memory usage and might cause stack over
 
 ## [4]&nbsp;&nbsp;Balanced Binary Search Trees (15 points)
 
-All answers to this section should be answered in the pdf. Some questions may require drawings of trees; we will not judge you by their artistic quality, as long as they are easy to understand. In particular, the root should be on the top, and all nodes at the same distance from the root should be verically aligned (see examples below). There is a nice tool for drawing these bad boys at [draw.io](https://www.draw.io) (however, we also accept pictures of your notebook).
+All answers to this section should be answered in the pdf. Some questions may require drawings of trees; we will not judge you by their artistic quality, as long as they are easy to understand. In particular, the root should be on the top, and all nodes at the same distance from the root should be vertically aligned (see examples below). There is a nice tool for drawing these bad boys at [draw.io](https://www.draw.io) (however, we also accept pictures of your notebook).
 
 Note: Drawing the "null" edges is important. You will lose points if you don't draw them.
 
