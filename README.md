@@ -191,7 +191,7 @@ need to touch it unless your really want to.
 
 You must fulfill the following requirements:
 
-  * Your constructor takes a single argument, the highest allowed index in your indexed priority queue. You are *not* required to make the class dynamically resizable.
+  * Your constructor takes a single argument, the highest allowed index in your indexed priority queue. You are *not* required to make the class dynamically resizable (and even if you do, you still need to provide such a constructor for auto-grading purposes).
   * Your `poll()` and `peek()` functions should return the index of the *minimum* element in the priority queue (as opposed to the provided [UnorderedIndexMaxPQ](src/main/java/no/uib/ii/inf102/f18/mandatory1/UnorderedIndexMaxPQ.java) class, which returns the index of the maximum).
   * Your `add()`, `remove()`, `changeKey()` and `poll()` functions should take logarithmic time at worst (as a function of the number of elements currently in the priority queue)
   * Your `peek()`, `contains()`, `size()`, and `getKey()` functions should take constant time.
