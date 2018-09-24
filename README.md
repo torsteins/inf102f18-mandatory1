@@ -150,7 +150,7 @@ it will crash)
 
 
  **d)** The provided implementation of quicksort is recursive, but you've
- heard a rumour that iterative implementations are generally quicker. Create a class
+ heard a rumour that iterative (non-recursive) implementations are generally quicker. Create a class
   `IterativeQuick` with a public method `sort(Comparable[] arr)`, which
   implements an 
  interative version of quicksort. Test it by modifying line `30` of [TrollBook.java](src/main/java/no/uib/ii/inf102/f18/mandatory1/TrollBook.java)
@@ -205,7 +205,7 @@ Problem a require a drawing of a tree; we will not judge you by its artistic qua
 
 **a)** Draw the binary search tree that results you insert the keys `Z M Q N Y I D S B F T` in that order into an initially empty BST.
 
-**b)** Implement an iterative version of the `get(Key key)` function.
+**b)** Implement an iterative (non-recursive) version of the `get(Key key)` function.
 
 **c)** Create a class `MyClass` which solves the Kattis problem [uib.myclass](https://uib.kattis.com/problems/uib.myclass). Your code should both be included in the maven project you hand in, as well as be submitted to Kattis.
 
