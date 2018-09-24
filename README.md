@@ -203,7 +203,7 @@ In this problem, we examine binary search trees (BST). Subtask a should be answe
 
 Problem a require a drawing of a tree; we will not judge you by its artistic quality, as long as it is easy to understand. In particular, the root should be on the top, and all nodes at the same distance from the root should be vertically aligned (see examples later in the assignment). There is a nice tool for drawing trees at [draw.io](https://www.draw.io) (however, we also accept pictures of your notebook). Note: Drawing the "null" edges is important. You will lose points if you don't draw them.
 
-**a)** Draw the binary search tree that results you insert the keys `Z M Q N Y I D S B F T` in that order into an initially empty BST.
+**a)** Draw the BST that results you insert the keys `Z M Q N Y I D S B F T` in that order into an initially empty tree.
 
 **b)** Implement an iterative (non-recursive) version of the `get(Key key)` function.
 
