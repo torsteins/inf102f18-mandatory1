@@ -199,7 +199,7 @@ You must fulfill the following requirements:
 
 ## [3]&nbsp;&nbsp;(Iterative) Binary Search Tree (20 points)
 
-In this problem, we examine binary search trees (BST). Subtask a should be answered in the pdf, whereas subtasks b and c consists of code. For your convenience, we have included the binary search tree from lecture in the repository in the class [BinarySearchTree](src/main/java/no/uib/ii/inf102/f18/mandatory1/BinarySearchTree.java). You will change this code as part of subtask b.
+In this problem, we examine binary search trees (BST). Subtask a should be answered in the pdf, whereas subtasks b and c consists of code. We have included the binary search tree from lecture in the class [BinarySearchTree](src/main/java/no/uib/ii/inf102/f18/mandatory1/BinarySearchTree.java). You will change this code as part of subtask b.
 
 Problem a require a drawing of a tree; we will not judge you by its artistic quality, as long as it is easy to understand. In particular, the root should be on the top, and all nodes at the same distance from the root should be vertically aligned (see examples later in the assignment). There is a nice tool for drawing trees at [draw.io](https://www.draw.io) (however, we also accept pictures of your notebook). Note: Drawing the "null" edges is important. You will lose points if you don't draw them.
 
