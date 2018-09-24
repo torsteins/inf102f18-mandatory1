@@ -217,11 +217,11 @@ Note: Drawing the "null" edges is important. You will lose points if you don't d
  
  Task | 2-3 tree | Red-black BST
  ---- | -------- | -------------
-   i  | ![2-3 tree (i)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-i-23tree.png) | ![red-black tree (i)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-i-redblack.png)
-  ii  | ![2-3 tree (ii)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-ii-23tree.png) |  
-  iii |   | ![red-black tree (iii)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-iii-redblack.png)
-  iv  |   | ![red-black tree (iv)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-iv-redblack.png)
-  v   |  ![2-3 tree (v)](https://github.com/torsteins/inf102f18-mandatory1/blob/master/pics/task4-v-23tree.png) |
+   i  | ![2-3 tree (i)](pics/task4-i-23tree.png) | ![red-black tree (i)](pics/task4-i-redblack.png)
+  ii  | ![2-3 tree (ii)](pics/task4-ii-23tree.png) |  
+  iii |   | ![red-black tree (iii)](pics/task4-iii-redblack.png)
+  iv  |   | ![red-black tree (iv)](pics/task4-iv-redblack.png)
+  v   |  ![2-3 tree (v)](pics/task4-v-23tree.png) |
 
  **e)** In the left-leaning red-black implementation of 2-3 trees, we use three operations: "rotate left," (L) "rotate right" (R) and "flip colors" (F). For the red-black tree below, give the order that these operations are applied when the character `n` is inserted. Give your trace as a single string of the characters L, R and F.
  
