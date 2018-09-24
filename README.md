@@ -164,20 +164,27 @@ it will crash)
 
 ## [2]&nbsp;&nbsp;Indexed Priority Queues (20 points)
 
-In this task, we will examine heaps and priority queues. 
+In this task, we will examine heaps and priority queues. Task a and b should
+be answered in the pdf, task c consists of coding.
+
+**
 
 
-**b)** Write a class `IndexMinPQ` which implements the interface `IIndexPQ`.
+**c)** Write a class `IndexMinPQ` which implements the interface `IIndexPQ`.
 
 An *indexed priority queue* is one where your heap consists of *indexed* (named) items; for instance, say we have a priority queue of objects, where what you get when you peek or poll is simply the *id* of the object, and not the actual object itself. In order to know how the indices are sorted, each index (/id) is associated with a comparable *key*. The great benefit of this data structure is that it is possible to change the priority of an object if we know its index.
 
+We have provide a (silly) class [UnorderedIndexMaxPQ](https://github.com/torsteins/inf102f18-mandatory1/blob/master/src/main/java/no/uib/ii/inf102/f18/mandatory1/UnorderedIndexMaxPQ.java)
+which implements the interface. This is only for your reference; you do not
+need to touch it unless your really want to.
+
 You may use the partial solution from page 333/334 in the book as a starting point (you might need to rename some funcitons to fit the interface).
 
-Some points to keep in mind:
+You must fulfill the following requirements:
 
-  * Your constructor should take a single argument, the maximum capacity of your indexed priority queue. You are not required to make the class dynamically resizable.
-  * Your `poll()` and `peek()` functions should return the index of the *minimum* element in the priority queue (as opposed to the provided `UnorderedIndexPQ` class, which returns the index of the maximum).
-  * Your `add()`, `remove()`, `changeKey()` and `poll()` functions should take logarithmic time at worst (as a function of the number of elements in the priority queue)
+  * Your constructor takes a single argument, the maximum allowed index of your indexed priority queue. You are *not* required to make the class dynamically resizable.
+  * Your `poll()` and `peek()` functions should return the index of the *minimum* element in the priority queue (as opposed to the provided [UnorderedIndexMaxPQ](https://github.com/torsteins/inf102f18-mandatory1/blob/master/src/main/java/no/uib/ii/inf102/f18/mandatory1/UnorderedIndexMaxPQ.java) class, which returns the index of the maximum).
+  * Your `add()`, `remove()`, `changeKey()` and `poll()` functions should take logarithmic time at worst (as a function of the number of elements currently in the priority queue)
   * Your `peek()`, `contains()`, `size()`, and `getKey()` functions should take constant time.
 
 
