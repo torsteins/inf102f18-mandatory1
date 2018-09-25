@@ -88,7 +88,18 @@ You should already be done with this section from mandatory 0, but in case you f
  where *yourid* is your UiB SEBRA account id handle (for example, if your UiB id is *abc123*,
  you should name the file `abc123.pdf`). The file should reside in the main folder of your maven project
  (that's the same folder as this README.md).
- 
+
+#### Code answers
+
+All code you write for the mandatory assignment should be added to this maven project.
+If a task require you to solve a problem at Kattis, you must
+submit your code to Kattis in addition to providing the code in
+the project you hand in.
+  *  All classes should reside in the package no.uib.ii.inf102.f18.mandatory1
+  *  You will be graded on both correctness and style. Se the appendix for style
+  guidelines.
+  *  Be careful to name the classes correctly according to task specifications,
+  or else it will count as violating the organizational instructions.
 
 #### Submission
 
@@ -111,7 +122,7 @@ You should already be done with this section from mandatory 0, but in case you f
   * Late assignments will be accepted for 24 hours, with a 20 point penalty.
 
 
-## [1]&nbsp;&nbsp;(Iterative) Quicksort (15 points)
+## [1]&nbsp;&nbsp; Quicksort (15 points)
 In this task, we will examine quicksort. Subtasks a, b and c should be answered
 in the pdf, whereas subtask d consists of coding. In the maven project we have
 provided a recursive implementation of quicksort
@@ -162,7 +173,7 @@ it will crash)
  the stack and preform the quicksort routine. Instead of doing recursive
  calls, push new ranges onto the stack.)
 
-## [2]&nbsp;&nbsp;(Indexed) Priority Queues (20 points)
+## [2]&nbsp;&nbsp; Priority Queues (20 points)
 
 In this task, we will examine heap-based priority queues. Task a and b should
 be answered in the pdf, task c consists of coding.
@@ -197,20 +208,24 @@ You must fulfill the following requirements:
   * Your `peek()`, `contains()`, `size()`, and `getKey()` functions should take constant time.
 
 
-## [3]&nbsp;&nbsp;(Iterative) Binary Search Tree (20 points)
+## [3]&nbsp;&nbsp; Binary Search Tree (20 points)
 
-In this problem, we examine binary search trees (BST). Subtask a should be answered in the pdf, whereas subtasks b and c consists of code. We have included the binary search tree from lecture in the class [BinarySearchTree](src/main/java/no/uib/ii/inf102/f18/mandatory1/BinarySearchTree.java). You will change this code as part of subtask b.
+In this problem, we examine binary search trees (BST's). Subtask (a) should be answered in the pdf, whereas subtasks (b), (c) and (d) consists of code. We have included the binary search tree from lecture in the class [BinarySearchTree](src/main/java/no/uib/ii/inf102/f18/mandatory1/BinarySearchTree.java). You will change this code as part of subtask (b) and (c).
 
-Problem a require a drawing of a tree; we will not judge you by its artistic quality, as long as it is easy to understand. In particular, the root should be on the top, and all nodes at the same distance from the root should be vertically aligned (see examples later in the assignment). There is a nice tool for drawing trees at [draw.io](https://www.draw.io) (however, we also accept pictures of your notebook). Note: Drawing the "null" edges is important. You will lose points if you don't draw them.
+Subtask (a) require a drawing of a tree; we will not judge you by its artistic quality, as long as it is easy to understand. In particular, the root should be on the top, and all nodes at the same distance from the root should be vertically aligned (see examples later in the assignment). There is a nice tool for drawing trees at [draw.io](https://www.draw.io) (however, we also accept pictures of your notebook). Note: Drawing the "null" edges is important. You will lose points if you don't draw them.
 
 **a)** Draw the BST that results you insert the keys `Z M Q N Y I D S B F T` in that order into an initially empty tree.
 
-**b)** Implement an iterative (non-recursive) version of the `get(Key key)` function.
+**b)** Change the `get(Key key)` function to become iterative (non-recursive).
 
-**c)** Create a class `MyClass` which solves the Kattis problem [uib.myclass](https://uib.kattis.com/problems/uib.myclass). Your code should both be included in the maven project you hand in, as well as be submitted to Kattis.
+**c)** The provided BST is violating the rules of the assignment in that its `keys()` method is actually returning an `ArrayDeque` from the Java standard
+library. Fix it by using a stack or a queue you have written yourself instead, which
+implements `Iterable`.
+
+**d)** Create a class `BSTDebugging` which solves the Kattis problem [uib.bstdebugging](https://uib.kattis.com/problems/uib.bstdebugging).
 
 
-## [4]&nbsp;&nbsp;Balanced Binary Search Trees (15 points)
+## [4]&nbsp;&nbsp; Balanced Binary Search Trees (15 points)
 
 All answers to this section should be answered in the pdf. Some questions may require drawings of trees; we will not judge you by their artistic quality, as long as they are easy to understand. In particular, the root should be on the top, and all nodes at the same distance from the root should be vertically aligned (see examples below). There is a nice tool for drawing these bad boys at [draw.io](https://www.draw.io) (however, we also accept pictures of your notebook).
 
