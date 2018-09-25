@@ -123,8 +123,8 @@ the project you hand in.
 
 
 ## [1]&nbsp;&nbsp; Quicksort (15 points)
-In this task, we will examine quicksort. Subtasks a, b and c should be answered
-in the pdf, whereas subtask d consists of coding. In the maven project we have
+In this task, we will examine quicksort. Subtasks (a), (b) and (c) should be answered
+in the pdf, whereas subtask (d) consists of coding. In the maven project we have
 provided a recursive implementation of quicksort
 (in the class [Quick](src/main/java/no/uib/ii/inf102/f18/mandatory1/Quick.java)),
 which you may use as a
@@ -132,14 +132,14 @@ reference. You do not need to touch this code, but you may if you want to.
 
  **a)** The provided quicksort implementation
 is based on an in-place partitioning scheme. Show a trace of
-how the partition function partitions the array `[11, 12, 4, 13, 2, 5, 11, 5, 16, 14]` (lb=0, ub=10). Give your trace in the style of the
-trace on page 291 in the book (you do not need to draw the arrows, and you
-may use boldface instead of color-coding if you prefer).
+how the partition function partitions the array `[11, 12, 4, 13, 2, 5, 11, 5, 16, 14]` (lb=0, ub=10). Give your trace in the style of [this
+trace](pics/example_qs_partitioning_trace.png) (you do not need to draw the arrows, and you
+may use boldface instead of color-coding if you prefer. Picture from page 291 in the book).
 
  **b)** Show a trace of how quicksort sorts the array `[11, 12, 4, 13, 2, 5, 11, 5, 16, 14]`, assuming
 that the inital shuffle is omitted.
-Give your trace in the style of the trace on page 289 in the book (you may use
-boldface and italics instead of color-coding if you prefer).
+Give your trace in the style of [this trace](pics/example_qs_trace.png) (you may use
+boldface and italics instead of color-coding if you prefer. Picture from page 289 in the book).
 
 **c)** Much of the quicksort magic happens on lines `64` and `65` in the
 [Quick](src/main/java/no/uib/ii/inf102/f18/mandatory1/Quick.java) class.
