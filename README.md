@@ -196,7 +196,7 @@ An *indexed priority queue* is one where your heap consists of *indexed* (named)
 
 We have provided a (silly) class [UnorderedIndexMaxPQ](src/main/java/no/uib/ii/inf102/f18/mandatory1/UnorderedIndexMaxPQ.java)
 which implements the interface. This is only for your reference; you do not
-need to touch it unless your really want to.
+need to touch it unless you really want to.
 
 (Hint: Use the partial solution from page 333/334 in the book as a starting point. You might need to rename some funcitons to fit the interface.)
 
