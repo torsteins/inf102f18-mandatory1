@@ -173,7 +173,7 @@ it will crash)
  the stack and preform the quicksort routine. Instead of doing recursive
  calls, push new ranges onto the stack.)
 
-## [2]&nbsp;&nbsp; Priority Queues (25 points)
+## [2]&nbsp;&nbsp; Priority Queues (20 points)
 
 In this task, we will examine heap-based priority queues. Subtasks (a) and (b) should
 be answered in the pdf, subtask (c) consists of coding.
@@ -225,7 +225,7 @@ implements `Iterable`.
 **d)** Create a class `BSTDebugging` which solves the Kattis problem [uib.bstdebugging](https://uib.kattis.com/problems/uib.bstdebugging).
 
 
-## [4]&nbsp;&nbsp; Balanced Binary Search Trees (15 points)
+## [4]&nbsp;&nbsp; Balanced Binary Search Trees (20 points)
 
 All answers to this section should be answered in the pdf. Some questions may require drawings of trees; we will not judge you by their artistic quality, as long as they are easy to understand. In particular, the root should be on the top, and all nodes at the same distance from the root should be vertically aligned (see examples below). There is a nice tool for drawing these bad boys at [draw.io](https://www.draw.io) (however, we also accept pictures of your notebook).
 
