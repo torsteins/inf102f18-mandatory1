@@ -267,7 +267,7 @@ These rules applies to all source code that is handed in. These guidelines are l
     * Use descriptive and logical variable names and function names.
     * Break the code into appropriate functions for readablity and code reuse; no function should ideally be more than 30 lines of code (with the exception of extremely monotone code, such as sanity tests).
     * Write javadoc comments for functions that are not self-explanatory
-  * All files should use UTF-8 characeter encoding.
+  * All files should use UTF-8 character encoding.
   
 ##### Also important
   * The only whitespace characters allowed are spaces and newlines (tabs are not allowed).
