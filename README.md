@@ -173,7 +173,7 @@ it will crash)
  the stack and preform the quicksort routine. Instead of doing recursive
  calls, push new ranges onto the stack.)
 
-## [2]&nbsp;&nbsp; Priority Queues (20 points)
+## [2]&nbsp;&nbsp; Priority Queues (25 points)
 
 In this task, we will examine heap-based priority queues. Subtasks (a) and (b) should
 be answered in the pdf, subtask (c) consists of coding.
@@ -208,7 +208,7 @@ You must fulfill the following requirements:
   * Your `peek()`, `contains()`, `size()`, and `getKey()` functions should take constant time.
 
 
-## [3]&nbsp;&nbsp; Binary Search Tree (20 points)
+## [3]&nbsp;&nbsp; Binary Search Tree (15 points)
 
 In this problem, we examine binary search trees (BST's). Subtask (a) should be answered in the pdf, whereas subtasks (b), (c) and (d) consists of code. We have included the binary search tree from lecture in the class [BinarySearchTree](src/main/java/no/uib/ii/inf102/f18/mandatory1/BinarySearchTree.java). You will change this code as part of subtask (b) and (c).
 
