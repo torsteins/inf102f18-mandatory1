@@ -175,8 +175,8 @@ it will crash)
 
 ## [2]&nbsp;&nbsp; Priority Queues (20 points)
 
-In this task, we will examine heap-based priority queues. Task a and b should
-be answered in the pdf, task c consists of coding.
+In this task, we will examine heap-based priority queues. Subtasks (a) and (b) should
+be answered in the pdf, subtask (c) consists of coding.
 
 **a)** The array `[ null, T, P, R, N, H, O, A, E, I, G ]` represents a
 1-indexed max heap in a priority queue of type `Character`. What does
