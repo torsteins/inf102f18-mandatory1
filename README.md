@@ -66,7 +66,7 @@ So follow these instructions carefully.
  to popular IDE's such as Eclipse and Intellij.
  
  (Intellij note: Before you download, go to Preferences/Settings -> Build, Execution and Deployment -> Build Tools -> Maven -> Importing and select "Import Maven projects automatically")
- * All code you write should reside in the package no.uib.ii.inf102.f18.mandatory1
+ * All code you write should reside in the package no.uib.ii.inf102.f18.mandatory1 (do *not* use any subpackages)
  * All code should have correct class names as according to the task specification
  
 #### Register for the course at Kattis
