@@ -51,7 +51,7 @@ public interface IIndexPQ<Key extends Comparable<Key>> {
     Key getKey(int index);
 
     /**
-     * Return the largest key in the priority queue.
+     * Return the key in the priority queue with highest priority.
      * Returns null if none exists. If more than one
      * key has the maximum value, no guarantee is
      * given as to which of them is returned
@@ -61,7 +61,7 @@ public interface IIndexPQ<Key extends Comparable<Key>> {
     Key peekKey();
 
     /**
-     * Return the index associated with the largest key
+     * Return the index associated with the highest priority key
      * in the priority queue.
      * Returns -1 if none exists. If more than one
      * key has the maximum value, no guarantee is
@@ -72,7 +72,7 @@ public interface IIndexPQ<Key extends Comparable<Key>> {
     int peek();
 
     /**
-     * Return the index associated with the largest key
+     * Return the index associated with the highest priority key
      * in the priority queue, and remove from priority queue.
      * Returns -1 if none exists. If more than one
      * key has the maximum value, no guarantee is
