@@ -247,11 +247,15 @@ Note: Drawing the "null" edges is important. You will lose points if you don't d
   iv  |   | ![red-black tree (iv)](pics/task4-iv-redblack.png)
   v   |  ![2-3 tree (v)](pics/task4-v-23tree.png) |
 
- **e)** In the left-leaning red-black implementation of 2-3 trees, we use three operations: "rotate left," (L) "rotate right" (R) and "flip colors" (F). For the red-black tree below, give the order that these operations are applied when the character `n` is inserted (only the search path is shown). Give your trace as a single string with the characters L, R and F.
+ **e)** In the left-leaning red-black implementation of 2-3 trees, we use three operations: "rotate left," (L) "rotate right" (R) and "flip colors" (F). For the red-black tree below, give the order that these operations are applied when the character `n` is inserted (the search path is shown). Give your trace as a single string with the characters L, R and F.
  
  <a href="pics/task4-e.png"><img src="pics/task4-e.png" width="400"/></a>
  
  **f)** What is the maximum depth of a left-leaning red-black tree with `n` nodes? Explain/prove your answer.
+ 
+ 
+#### *Clarifications*
+ * In subtask (e), you should assume that the children of the node with key `m` are null, even though the picture suggest that there could be possibly large subtrees there; however, if they were non-null, then it would not be true that the picture shows the entire search path.
 
  
  ##### Good luck!
