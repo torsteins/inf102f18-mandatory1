@@ -256,6 +256,7 @@ Note: Drawing the "null" edges is important. You will lose points if you don't d
  
 #### *Clarifications*
  * In subtask (e), you should assume that the children of the node with key `m` are null, even though the picture suggest that there could be possibly large subtrees there; however, if they were non-null, then it would not be true that the picture shows the entire search path.
+ * In subtask (f), red edges also contribute to the depth.
 
  
  ##### Good luck!
