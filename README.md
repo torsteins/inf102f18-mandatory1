@@ -86,7 +86,7 @@ You should already be done with this section from mandatory 0, but in case you f
 
  * The answer to non-code questions should be contained in a single pdf named `String.format("%s.pdf", yourid)`
  where *yourid* is your UiB SEBRA account id handle (for example, if your UiB id is *abc123*,
- you should name the file `abc123.pdf`). The file should reside in the top level folder of your maven project
+ you should name the file `abc123.pdf`). The file should reside in the ~~main~~ top level folder of your maven project
  (that's the same folder as this README.md).
 
 #### Code answers
