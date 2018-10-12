@@ -96,7 +96,7 @@ If a task require you to solve a problem at Kattis, you must
 submit your code to Kattis in addition to providing the code in
 the project you hand in.
   *  All classes should reside in the package no.uib.ii.inf102.f18.mandatory1
-  *  You will be graded on both correctness and style. Se the appendix for style
+  *  You will be graded on both correctness and style. See the appendix for style
   guidelines.
   *  Be careful to name the classes correctly according to task specifications,
   or else it will count as violating the organizational instructions.
