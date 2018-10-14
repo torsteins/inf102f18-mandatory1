@@ -206,6 +206,9 @@ You must fulfill the following requirements:
   * Your `poll()` and `peek()` functions should return the index of the *minimum* element in the priority queue (as opposed to the provided [UnorderedIndexMaxPQ](src/main/java/no/uib/ii/inf102/f18/mandatory1/UnorderedIndexMaxPQ.java) class, which returns the index of the maximum).
   * Your `add()`, `delete()`, `changeKey()` and `poll()` functions should take logarithmic time at worst (as a function of the number of elements currently in the priority queue)
   * Your `peek()`, `contains()`, `size()`, and `getKey()` functions should take constant time.
+  
+  #### *Update*
+You may test your code by solving the problem [uib.indexpq](https://uib.kattis.com/problems/uib.indexpq) at Kattis. Because this Kattis problem was added so late, we have even made the client code which solves the problem for you in [IndexMinPQClient](src/main/java/no/uib/ii/inf102/f18/mandatory1/IndexMinPQClient) - you only need to plug in your `IndexMinPQ` data structure in the client on line `23`.
 
 
 ## [3]&nbsp;&nbsp; Binary Search Tree (15 points)
