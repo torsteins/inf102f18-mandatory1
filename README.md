@@ -3,6 +3,8 @@ For the course [INF102 Fall 2018](https://mitt.uib.no/courses/12780)
 
 Deadline: Wednesday October 17, 2018 at 23:59
 
+The final deadline for this mandatory assignment has passed. Check out the proposed solutions on the [solutions](https://github.com/torsteins/inf102f18-mandatory1/tree/solution) branch.
+
 ## Organizational notes
 
 This assignment is an individual task, however you are encouraged to
