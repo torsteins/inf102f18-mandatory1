@@ -1,18 +1,11 @@
 package no.uib.ii.inf102.f18.mandatory1;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.SplittableRandom; // A (much) faster random generator than java.util.Random
+import java.util.SplittableRandom;
 
 /**
- *  Quicksort is the preferred sorting method when stability is not a concern - such as when
- *  sorting primitives (int, long, char, double etc.). Quicksort has an expected runtime of
- *  O(n lg n), and a guaranteed runtime of O(n^2). However, the probability that the runtime is
- *  quadratic is exponentially small as a function of n. In practice, quick-sort is widely used
- *  (for instance in Arrays.sort() for primitives and in the Python and C++ standard libraries).
+ * @author Torstein Strømme
  */
-@SuppressWarnings("unchecked")
-public class Quick {
+public class IterativeQuick {
 
     /**
      * Sort the array using quicksort.
@@ -36,10 +29,22 @@ public class Quick {
     }
 
     private static void quickSort(Comparable[] arr, int lb, int ub) {
-        if (lb + 1 >= ub) return;
-        int pivotPosition = partition(arr, lb, ub);
-        quickSort(arr, lb, pivotPosition);
-        quickSort(arr, pivotPosition + 1, ub);
+        MyStack<int[]> stack = new MyStack<>();
+        stack.push(new int[]{lb, ub});
+
+        while (stack.size() > 0) {
+            int[] bounds = stack.pop();
+            lb = bounds[0];
+            ub = bounds[1];
+
+            if (lb + 1 >= ub) {
+                continue;
+            }
+
+            int pivotPosition = partition(arr, lb, ub);
+            stack.push(new int[]{lb, pivotPosition});
+            stack.push(new int[]{pivotPosition + 1, ub});
+        }
     }
 
     private static int partition(Comparable[] arr, int lb, int ub) {

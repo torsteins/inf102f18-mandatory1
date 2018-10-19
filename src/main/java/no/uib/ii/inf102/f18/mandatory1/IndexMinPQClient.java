@@ -2,7 +2,7 @@ package no.uib.ii.inf102.f18.mandatory1;
 
 /**
  * A client for solving the problem https://uib.kattis.com/problems/uib.indexpq
- * using an implementation of the IIndexPQ interface (implementation MUST be a min-PQ)
+ * using an implementation of the IIndexPQ interface
  *
  * @author Torstein Strømme
  */
@@ -19,8 +19,8 @@ public class IndexMinPQClient {
         final int q = io.getInt();
         int idx, key;
 
-        // Change the line below to initialize with your IndexMinPQ class
-        IIndexPQ<Integer> pq = null; // new IndexMinPQ<>(m);
+        // Change line to initialize with your IndexMinPQ
+        IndexMinPQ<Integer> pq = null; // new IndexMinPQ<>(m);
 
         for (int i = 0; i < q; i++) {
             switch (io.getWord().charAt(0)) {

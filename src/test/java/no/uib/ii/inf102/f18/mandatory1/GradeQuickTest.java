@@ -5,21 +5,23 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 
-import java.util.SplittableRandom;
 import java.util.Arrays;
+import java.util.SplittableRandom;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * @author Torstein Strømme
  */
-class QuickTest {
+public class GradeQuickTest {
     private static final int N = 100_000;
     private static SplittableRandom r;
     private Integer[] arr;
 
     private void sort(Comparable[] arr) {
-        Quick.sort(arr);
+        IterativeQuick.sort(arr);
     }
 
     @SuppressWarnings("unchecked")
